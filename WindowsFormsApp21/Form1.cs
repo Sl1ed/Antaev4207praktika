@@ -106,5 +106,10 @@ namespace WindowsFormsApp21
                 stop = false;
             }
         }
+
+        private void информацияОРазработчикеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Выполнил: студент группы 4207 Антаев М.П.\nВариант: №3", "Информация о разработчике");
+        }
     }
 }

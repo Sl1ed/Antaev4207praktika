@@ -35,13 +35,15 @@
             this.стопToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.информацияОРазработчикеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.управлениеToolStripMenuItem});
+            this.управлениеToolStripMenuItem,
+            this.информацияОРазработчикеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1184, 24);
@@ -80,6 +82,13 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // информацияОРазработчикеToolStripMenuItem
+            // 
+            this.информацияОРазработчикеToolStripMenuItem.Name = "информацияОРазработчикеToolStripMenuItem";
+            this.информацияОРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(182, 20);
+            this.информацияОРазработчикеToolStripMenuItem.Text = "Информация о разработчике";
+            this.информацияОРазработчикеToolStripMenuItem.Click += new System.EventHandler(this.информацияОРазработчикеToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +114,7 @@
         private System.Windows.Forms.ToolStripMenuItem стопToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem информацияОРазработчикеToolStripMenuItem;
     }
 }
 
